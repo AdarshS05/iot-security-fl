@@ -1,0 +1,10 @@
+*.log
+disassembly_benchmark.log
+
+
+*.asm
+
+*.elf
+*.o
+*.out
+*.bin

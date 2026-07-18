@@ -1,0 +1,146 @@
+
+2026-07-16 23:12:48,336 - INFO - [SUCCESS] 930acf8cd72e3f5edfe5eee163e0e701708167bd72e20a5a1641648cf2078579.elf - Extracted in 0.5864 seconds
+2026-07-16 23:12:48,508 - INFO - [SUCCESS] c0e572bb278fb7f035665a52ef03ddee2d482b6b29573fad1697c8b66355b7c3.elf - Extracted in 0.1721 seconds
+2026-07-16 23:12:50,320 - INFO - [SUCCESS] b1d57fd6bcd109a99d5023d76767aa6fdb520138e4eaad2a9a48afb3b6fb98b6.elf - Extracted in 1.8116 seconds
+2026-07-16 23:12:50,476 - INFO - [SUCCESS] 9117ed1aedcf1af415fd096959d17eb386e870429621148fcfe758c9dd48c5ed.elf - Extracted in 0.1563 seconds
+2026-07-16 23:12:51,000 - INFO - [SUCCESS] 0f3b6cea0bf1a53f233565ef14577676c69bf5fee82ceca029e1287670fe4ff7.elf - Extracted in 0.5226 seconds
+2026-07-16 23:12:51,500 - INFO - [SUCCESS] 58fbacdd6055f8f1672d64ec83dba0b46efd2acf4da846cf7fed28fd15042f96.elf - Extracted in 0.4992 seconds
+2026-07-16 23:12:51,588 - INFO - [SUCCESS] 22ea54360f7b59f926660f70b05b11f6b00bc1519b5114df06176d0c53003e24.elf - Extracted in 0.0879 seconds
+2026-07-16 23:12:52,218 - INFO - [SUCCESS] 76847058eeedd24ced98caf9803b6f5eb68ce7476b89d05c54c630fe60c65c8a.elf - Extracted in 0.6283 seconds
+2026-07-16 23:12:52,707 - INFO - [SUCCESS] bf113dd0b032f4abd156a6fc9af4928463b3882e554eb1fea5b4df5885b58213.elf - Extracted in 0.4889 seconds
+2026-07-16 23:12:52,795 - INFO - [SUCCESS] cb5c5d9258952910faaba3f81e0860b6f717fde8bba543c3aa2f80655e17e87b.elf - Extracted in 0.0879 seconds
+2026-07-16 23:12:52,849 - INFO - [SUCCESS] 79c7c57600290bf10ec9cf82891b03750e49161e7d662a51e8167d93f99e4a04.elf - Extracted in 0.0538 seconds
+2026-07-16 23:12:52,905 - INFO - [SUCCESS] f60a839b4bce2e10008b55d7913afc3fbeb37093cdea6dfa6e0e3e6af5af0ea4.elf - Extracted in 0.0558 seconds
+2026-07-16 23:12:53,221 - INFO - [SUCCESS] fd452d2cfed222a167131237b4060cba8313faec887a4747682671baa0ee3ca3.elf - Extracted in 0.3156 seconds
+2026-07-16 23:12:53,412 - INFO - [SUCCESS] 314d38af536dfe3357a8288eda13062c2f452208b55fa6c290fa9fa1b27bab52.elf - Extracted in 0.1906 seconds
+2026-07-16 23:12:54,084 - INFO - [SUCCESS] 443e0fb4269edd6774e177eea038da095b43427f97b8f58cba701b583e5591f5.elf - Extracted in 0.6718 seconds
+2026-07-16 23:12:55,553 - INFO - [SUCCESS] dc33c6222faa55cb7e94b907eb02c330d2448fb594359e5b6db749dde9a4fc28.elf - Extracted in 1.4688 seconds
+2026-07-16 23:12:55,591 - INFO - [SUCCESS] 68f15087e64bd08ec305a99ee9c2f0ab16a24b28948b5e71841622ed67da67b0.elf - Extracted in 0.0378 seconds
+2026-07-16 23:12:55,632 - INFO - [SUCCESS] 041331a7f8ee39d151eaf454f0ded5f1d40da4210f2b9ae6d0ad1b7d9a89409f.elf - Extracted in 0.0406 seconds
+2026-07-16 23:12:55,769 - INFO - [SUCCESS] 1993ca03661ceda004963be1cbd133863062542636645bee674b32df2e03502f.elf - Extracted in 0.1359 seconds
+2026-07-16 23:12:55,814 - INFO - [SUCCESS] fd6dd4a25fa4451d936e388e9240e48b381fe08018d8f31f1024ae54679827e5.elf - Extracted in 0.0443 seconds
+2026-07-16 23:12:56,001 - INFO - [SUCCESS] 76a4ec58fd4740d58e976f21687f941b514d1951f75fd3bb07774c2a546d46e4.elf - Extracted in 0.1870 seconds
+2026-07-16 23:13:06,758 - INFO - [SUCCESS] b2cc5ad7247be26a841db034090d14f9a980b4771dc95e9f4110f2066ac1236a.elf - Extracted in 10.7567 seconds
+2026-07-16 23:13:08,957 - INFO - [SUCCESS] 91996022b87d6650742603c95ec20f35d4dc48d808bfba066ad75d36104fe51c.elf - Extracted in 2.1983 seconds
+2026-07-16 23:13:09,657 - INFO - [SUCCESS] 2cfdca173c2cf8cc5a12827385f6bb6d69ba5b690084784806aa868989686d3b.elf - Extracted in 0.6998 seconds
+2026-07-16 23:13:12,214 - INFO - [SUCCESS] f7375f0ae0287b6aa966ae8ade9cadbd13821544a242f8418554ec462b71f8fd.elf - Extracted in 2.5563 seconds
+2026-07-16 23:13:12,214 - INFO - === DISASSEMBLY BENCHMARK REPORT ===
+2026-07-16 23:13:12,214 - INFO - Successful Extractions: 25
+2026-07-16 23:13:12,214 - INFO - Failed Extractions: 0
+2026-07-16 23:13:12,214 - INFO - Average Time per Binary: 0.9782 seconds
+2026-07-16 23:13:12,214 - INFO - Total Processing Time: 24.4543 seconds
+2026-07-16 23:18:26,174 - INFO - Starting bulk disassembly of 25 files in data/raw/benign_mips
+2026-07-16 23:18:27,364 - INFO - [SUCCESS] 930acf8cd72e3f5edfe5eee163e0e701708167bd72e20a5a1641648cf2078579.elf - Extracted in 1.1890 seconds
+2026-07-16 23:18:28,650 - INFO - [SUCCESS] c0e572bb278fb7f035665a52ef03ddee2d482b6b29573fad1697c8b66355b7c3.elf - Extracted in 1.2860 seconds
+2026-07-16 23:18:31,273 - INFO - [SUCCESS] b1d57fd6bcd109a99d5023d76767aa6fdb520138e4eaad2a9a48afb3b6fb98b6.elf - Extracted in 2.6225 seconds
+2026-07-16 23:18:31,490 - INFO - [SUCCESS] 9117ed1aedcf1af415fd096959d17eb386e870429621148fcfe758c9dd48c5ed.elf - Extracted in 0.2173 seconds
+2026-07-16 23:18:32,538 - INFO - [SUCCESS] 0f3b6cea0bf1a53f233565ef14577676c69bf5fee82ceca029e1287670fe4ff7.elf - Extracted in 1.0473 seconds
+2026-07-16 23:18:34,182 - INFO - [SUCCESS] 58fbacdd6055f8f1672d64ec83dba0b46efd2acf4da846cf7fed28fd15042f96.elf - Extracted in 1.6434 seconds
+2026-07-16 23:18:34,902 - INFO - [SUCCESS] 22ea54360f7b59f926660f70b05b11f6b00bc1519b5114df06176d0c53003e24.elf - Extracted in 0.7194 seconds
+2026-07-16 23:18:35,947 - INFO - [SUCCESS] 76847058eeedd24ced98caf9803b6f5eb68ce7476b89d05c54c630fe60c65c8a.elf - Extracted in 1.0453 seconds
+2026-07-16 23:18:36,900 - INFO - [SUCCESS] bf113dd0b032f4abd156a6fc9af4928463b3882e554eb1fea5b4df5885b58213.elf - Extracted in 0.9524 seconds
+2026-07-16 23:18:38,335 - INFO - [SUCCESS] cb5c5d9258952910faaba3f81e0860b6f717fde8bba543c3aa2f80655e17e87b.elf - Extracted in 1.4348 seconds
+2026-07-16 23:18:38,417 - INFO - [SUCCESS] 79c7c57600290bf10ec9cf82891b03750e49161e7d662a51e8167d93f99e4a04.elf - Extracted in 0.0814 seconds
+2026-07-16 23:18:38,514 - INFO - [SUCCESS] f60a839b4bce2e10008b55d7913afc3fbeb37093cdea6dfa6e0e3e6af5af0ea4.elf - Extracted in 0.0966 seconds
+2026-07-16 23:18:39,115 - INFO - [SUCCESS] fd452d2cfed222a167131237b4060cba8313faec887a4747682671baa0ee3ca3.elf - Extracted in 0.6015 seconds
+2026-07-16 23:18:40,769 - INFO - [SUCCESS] 314d38af536dfe3357a8288eda13062c2f452208b55fa6c290fa9fa1b27bab52.elf - Extracted in 1.6537 seconds
+2026-07-16 23:18:42,128 - INFO - [SUCCESS] 443e0fb4269edd6774e177eea038da095b43427f97b8f58cba701b583e5591f5.elf - Extracted in 1.3583 seconds
+2026-07-16 23:18:45,145 - INFO - [SUCCESS] dc33c6222faa55cb7e94b907eb02c330d2448fb594359e5b6db749dde9a4fc28.elf - Extracted in 3.0169 seconds
+2026-07-16 23:18:45,214 - INFO - [SUCCESS] 68f15087e64bd08ec305a99ee9c2f0ab16a24b28948b5e71841622ed67da67b0.elf - Extracted in 0.0684 seconds
+2026-07-16 23:18:45,287 - INFO - [SUCCESS] 041331a7f8ee39d151eaf454f0ded5f1d40da4210f2b9ae6d0ad1b7d9a89409f.elf - Extracted in 0.0734 seconds
+2026-07-16 23:18:45,848 - INFO - [SUCCESS] 1993ca03661ceda004963be1cbd133863062542636645bee674b32df2e03502f.elf - Extracted in 0.5606 seconds
+2026-07-16 23:18:45,939 - INFO - [SUCCESS] fd6dd4a25fa4451d936e388e9240e48b381fe08018d8f31f1024ae54679827e5.elf - Extracted in 0.0908 seconds
+2026-07-16 23:18:47,634 - INFO - [SUCCESS] 76a4ec58fd4740d58e976f21687f941b514d1951f75fd3bb07774c2a546d46e4.elf - Extracted in 1.6944 seconds
+2026-07-16 23:52:16,010 - INFO - Starting bulk disassembly of 25 files in data/raw/benign_mips
+2026-07-16 23:52:16,639 - INFO - [SUCCESS] 930acf8cd72e3f5edfe5eee163e0e701708167bd72e20a5a1641648cf2078579.elf - Extracted in 0.6288 seconds
+2026-07-16 23:52:16,797 - INFO - [SUCCESS] c0e572bb278fb7f035665a52ef03ddee2d482b6b29573fad1697c8b66355b7c3.elf - Extracted in 0.1574 seconds
+2026-07-16 23:52:18,720 - INFO - [SUCCESS] b1d57fd6bcd109a99d5023d76767aa6fdb520138e4eaad2a9a48afb3b6fb98b6.elf - Extracted in 1.9232 seconds
+2026-07-16 23:52:18,869 - INFO - [SUCCESS] 9117ed1aedcf1af415fd096959d17eb386e870429621148fcfe758c9dd48c5ed.elf - Extracted in 0.1488 seconds
+2026-07-16 23:52:19,321 - INFO - [SUCCESS] 0f3b6cea0bf1a53f233565ef14577676c69bf5fee82ceca029e1287670fe4ff7.elf - Extracted in 0.4512 seconds
+2026-07-16 23:52:19,732 - INFO - [SUCCESS] 58fbacdd6055f8f1672d64ec83dba0b46efd2acf4da846cf7fed28fd15042f96.elf - Extracted in 0.4112 seconds
+2026-07-16 23:52:19,817 - INFO - [SUCCESS] 22ea54360f7b59f926660f70b05b11f6b00bc1519b5114df06176d0c53003e24.elf - Extracted in 0.0840 seconds
+2026-07-16 23:52:20,300 - INFO - [SUCCESS] 76847058eeedd24ced98caf9803b6f5eb68ce7476b89d05c54c630fe60c65c8a.elf - Extracted in 0.4826 seconds
+2026-07-16 23:52:20,732 - INFO - [SUCCESS] bf113dd0b032f4abd156a6fc9af4928463b3882e554eb1fea5b4df5885b58213.elf - Extracted in 0.4322 seconds
+2026-07-16 23:52:20,805 - INFO - [SUCCESS] cb5c5d9258952910faaba3f81e0860b6f717fde8bba543c3aa2f80655e17e87b.elf - Extracted in 0.0728 seconds
+2026-07-16 23:52:20,850 - INFO - [SUCCESS] 79c7c57600290bf10ec9cf82891b03750e49161e7d662a51e8167d93f99e4a04.elf - Extracted in 0.0440 seconds
+2026-07-16 23:52:20,893 - INFO - [SUCCESS] f60a839b4bce2e10008b55d7913afc3fbeb37093cdea6dfa6e0e3e6af5af0ea4.elf - Extracted in 0.0436 seconds
+2026-07-16 23:52:21,167 - INFO - [SUCCESS] fd452d2cfed222a167131237b4060cba8313faec887a4747682671baa0ee3ca3.elf - Extracted in 0.2737 seconds
+2026-07-16 23:52:21,323 - INFO - [SUCCESS] 314d38af536dfe3357a8288eda13062c2f452208b55fa6c290fa9fa1b27bab52.elf - Extracted in 0.1551 seconds
+2026-07-16 23:52:21,962 - INFO - [SUCCESS] 443e0fb4269edd6774e177eea038da095b43427f97b8f58cba701b583e5591f5.elf - Extracted in 0.6391 seconds
+2026-07-16 23:52:23,465 - INFO - [SUCCESS] dc33c6222faa55cb7e94b907eb02c330d2448fb594359e5b6db749dde9a4fc28.elf - Extracted in 1.5021 seconds
+2026-07-16 23:52:23,505 - INFO - [SUCCESS] 68f15087e64bd08ec305a99ee9c2f0ab16a24b28948b5e71841622ed67da67b0.elf - Extracted in 0.0394 seconds
+2026-07-16 23:52:23,554 - INFO - [SUCCESS] 041331a7f8ee39d151eaf454f0ded5f1d40da4210f2b9ae6d0ad1b7d9a89409f.elf - Extracted in 0.0488 seconds
+2026-07-16 23:52:23,680 - INFO - [SUCCESS] 1993ca03661ceda004963be1cbd133863062542636645bee674b32df2e03502f.elf - Extracted in 0.1262 seconds
+2026-07-16 23:52:23,723 - INFO - [SUCCESS] fd6dd4a25fa4451d936e388e9240e48b381fe08018d8f31f1024ae54679827e5.elf - Extracted in 0.0423 seconds
+2026-07-16 23:52:23,901 - INFO - [SUCCESS] 76a4ec58fd4740d58e976f21687f941b514d1951f75fd3bb07774c2a546d46e4.elf - Extracted in 0.1784 seconds
+2026-07-16 23:52:34,263 - INFO - [SUCCESS] b2cc5ad7247be26a841db034090d14f9a980b4771dc95e9f4110f2066ac1236a.elf - Extracted in 10.3609 seconds
+2026-07-16 23:52:37,504 - INFO - [SUCCESS] 91996022b87d6650742603c95ec20f35d4dc48d808bfba066ad75d36104fe51c.elf - Extracted in 3.2408 seconds
+2026-07-16 23:52:38,168 - INFO - [SUCCESS] 2cfdca173c2cf8cc5a12827385f6bb6d69ba5b690084784806aa868989686d3b.elf - Extracted in 0.6637 seconds
+2026-07-16 23:52:40,208 - INFO - [SUCCESS] f7375f0ae0287b6aa966ae8ade9cadbd13821544a242f8418554ec462b71f8fd.elf - Extracted in 2.0395 seconds
+2026-07-16 23:52:40,208 - INFO - === DISASSEMBLY BENCHMARK REPORT ===
+2026-07-16 23:52:40,208 - INFO - Successful Extractions: 25
+2026-07-16 23:52:40,208 - INFO - Failed Extractions: 0
+2026-07-16 23:52:40,208 - INFO - Average Time per Binary: 0.9676 seconds
+2026-07-16 23:52:40,209 - INFO - Total Processing Time: 24.1900 seconds
+2026-07-16 23:59:36,936 - INFO - Starting bulk disassembly of 25 files in data/raw/benign_mips
+2026-07-16 23:59:37,538 - ERROR - [FAILED] 930acf8cd72e3f5edfe5eee163e0e701708167bd72e20a5a1641648cf2078579.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:37,674 - ERROR - [FAILED] c0e572bb278fb7f035665a52ef03ddee2d482b6b29573fad1697c8b66355b7c3.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:39,577 - ERROR - [FAILED] b1d57fd6bcd109a99d5023d76767aa6fdb520138e4eaad2a9a48afb3b6fb98b6.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:39,702 - ERROR - [FAILED] 9117ed1aedcf1af415fd096959d17eb386e870429621148fcfe758c9dd48c5ed.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:40,190 - ERROR - [FAILED] 0f3b6cea0bf1a53f233565ef14577676c69bf5fee82ceca029e1287670fe4ff7.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:40,587 - ERROR - [FAILED] 58fbacdd6055f8f1672d64ec83dba0b46efd2acf4da846cf7fed28fd15042f96.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:40,659 - ERROR - [FAILED] 22ea54360f7b59f926660f70b05b11f6b00bc1519b5114df06176d0c53003e24.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:41,212 - ERROR - [FAILED] 76847058eeedd24ced98caf9803b6f5eb68ce7476b89d05c54c630fe60c65c8a.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:41,652 - ERROR - [FAILED] bf113dd0b032f4abd156a6fc9af4928463b3882e554eb1fea5b4df5885b58213.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:41,726 - ERROR - [FAILED] cb5c5d9258952910faaba3f81e0860b6f717fde8bba543c3aa2f80655e17e87b.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:41,767 - ERROR - [FAILED] 79c7c57600290bf10ec9cf82891b03750e49161e7d662a51e8167d93f99e4a04.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:41,811 - ERROR - [FAILED] f60a839b4bce2e10008b55d7913afc3fbeb37093cdea6dfa6e0e3e6af5af0ea4.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:42,084 - ERROR - [FAILED] fd452d2cfed222a167131237b4060cba8313faec887a4747682671baa0ee3ca3.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:42,255 - ERROR - [FAILED] 314d38af536dfe3357a8288eda13062c2f452208b55fa6c290fa9fa1b27bab52.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:42,895 - ERROR - [FAILED] 443e0fb4269edd6774e177eea038da095b43427f97b8f58cba701b583e5591f5.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:44,403 - ERROR - [FAILED] dc33c6222faa55cb7e94b907eb02c330d2448fb594359e5b6db749dde9a4fc28.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:44,454 - ERROR - [FAILED] 68f15087e64bd08ec305a99ee9c2f0ab16a24b28948b5e71841622ed67da67b0.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:44,491 - ERROR - [FAILED] 041331a7f8ee39d151eaf454f0ded5f1d40da4210f2b9ae6d0ad1b7d9a89409f.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:44,631 - ERROR - [FAILED] 1993ca03661ceda004963be1cbd133863062542636645bee674b32df2e03502f.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:44,676 - ERROR - [FAILED] fd6dd4a25fa4451d936e388e9240e48b381fe08018d8f31f1024ae54679827e5.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:44,880 - ERROR - [FAILED] 76a4ec58fd4740d58e976f21687f941b514d1951f75fd3bb07774c2a546d46e4.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:55,708 - ERROR - [FAILED] b2cc5ad7247be26a841db034090d14f9a980b4771dc95e9f4110f2066ac1236a.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:57,583 - ERROR - [FAILED] 91996022b87d6650742603c95ec20f35d4dc48d808bfba066ad75d36104fe51c.elf - Error: name 'instructions' is not defined
+2026-07-16 23:59:58,238 - ERROR - [FAILED] 2cfdca173c2cf8cc5a12827385f6bb6d69ba5b690084784806aa868989686d3b.elf - Error: name 'instructions' is not defined
+2026-07-17 00:00:00,114 - ERROR - [FAILED] f7375f0ae0287b6aa966ae8ade9cadbd13821544a242f8418554ec462b71f8fd.elf - Error: name 'instructions' is not defined
+2026-07-17 00:00:00,115 - INFO - === DISASSEMBLY BENCHMARK REPORT ===
+2026-07-17 00:00:00,115 - INFO - Successful Extractions: 0
+2026-07-17 00:00:00,115 - INFO - Failed Extractions: 25
+2026-07-17 00:00:00,115 - INFO - Average Time per Binary: 0.0000 seconds
+2026-07-17 00:00:00,115 - INFO - Total Processing Time: 0.0000 seconds
+2026-07-17 00:00:15,456 - INFO - Starting bulk disassembly of 25 files in data/raw/benign_mips
+2026-07-17 00:00:16,068 - INFO - [SUCCESS] 930acf8cd72e3f5edfe5eee163e0e701708167bd72e20a5a1641648cf2078579.elf - Extracted in 0.6122 seconds
+2026-07-17 00:00:16,213 - INFO - [SUCCESS] c0e572bb278fb7f035665a52ef03ddee2d482b6b29573fad1697c8b66355b7c3.elf - Extracted in 0.1447 seconds
+2026-07-17 00:00:18,324 - INFO - [SUCCESS] b1d57fd6bcd109a99d5023d76767aa6fdb520138e4eaad2a9a48afb3b6fb98b6.elf - Extracted in 2.1094 seconds
+2026-07-17 00:00:18,484 - INFO - [SUCCESS] 9117ed1aedcf1af415fd096959d17eb386e870429621148fcfe758c9dd48c5ed.elf - Extracted in 0.1592 seconds
+2026-07-17 00:00:19,038 - INFO - [SUCCESS] 0f3b6cea0bf1a53f233565ef14577676c69bf5fee82ceca029e1287670fe4ff7.elf - Extracted in 0.5540 seconds
+2026-07-17 00:00:19,499 - INFO - [SUCCESS] 58fbacdd6055f8f1672d64ec83dba0b46efd2acf4da846cf7fed28fd15042f96.elf - Extracted in 0.4605 seconds
+2026-07-17 00:00:19,599 - INFO - [SUCCESS] 22ea54360f7b59f926660f70b05b11f6b00bc1519b5114df06176d0c53003e24.elf - Extracted in 0.1005 seconds
+2026-07-17 00:00:20,138 - INFO - [SUCCESS] 76847058eeedd24ced98caf9803b6f5eb68ce7476b89d05c54c630fe60c65c8a.elf - Extracted in 0.5384 seconds
+2026-07-17 00:00:20,661 - INFO - [SUCCESS] bf113dd0b032f4abd156a6fc9af4928463b3882e554eb1fea5b4df5885b58213.elf - Extracted in 0.5232 seconds
+2026-07-17 00:00:20,755 - INFO - [SUCCESS] cb5c5d9258952910faaba3f81e0860b6f717fde8bba543c3aa2f80655e17e87b.elf - Extracted in 0.0938 seconds
+2026-07-17 00:00:20,805 - INFO - [SUCCESS] 79c7c57600290bf10ec9cf82891b03750e49161e7d662a51e8167d93f99e4a04.elf - Extracted in 0.0499 seconds
+2026-07-17 00:00:20,869 - INFO - [SUCCESS] f60a839b4bce2e10008b55d7913afc3fbeb37093cdea6dfa6e0e3e6af5af0ea4.elf - Extracted in 0.0632 seconds
+2026-07-17 00:00:21,166 - INFO - [SUCCESS] fd452d2cfed222a167131237b4060cba8313faec887a4747682671baa0ee3ca3.elf - Extracted in 0.2973 seconds
+2026-07-17 00:00:21,372 - INFO - [SUCCESS] 314d38af536dfe3357a8288eda13062c2f452208b55fa6c290fa9fa1b27bab52.elf - Extracted in 0.2048 seconds
+2026-07-17 00:00:22,098 - INFO - [SUCCESS] 443e0fb4269edd6774e177eea038da095b43427f97b8f58cba701b583e5591f5.elf - Extracted in 0.7259 seconds
+2026-07-17 00:00:23,641 - INFO - [SUCCESS] dc33c6222faa55cb7e94b907eb02c330d2448fb594359e5b6db749dde9a4fc28.elf - Extracted in 1.5433 seconds
+2026-07-17 00:00:23,684 - INFO - [SUCCESS] 68f15087e64bd08ec305a99ee9c2f0ab16a24b28948b5e71841622ed67da67b0.elf - Extracted in 0.0422 seconds
+2026-07-17 00:00:23,738 - INFO - [SUCCESS] 041331a7f8ee39d151eaf454f0ded5f1d40da4210f2b9ae6d0ad1b7d9a89409f.elf - Extracted in 0.0534 seconds
+2026-07-17 00:00:23,890 - INFO - [SUCCESS] 1993ca03661ceda004963be1cbd133863062542636645bee674b32df2e03502f.elf - Extracted in 0.1521 seconds
+2026-07-17 00:00:23,933 - INFO - [SUCCESS] fd6dd4a25fa4451d936e388e9240e48b381fe08018d8f31f1024ae54679827e5.elf - Extracted in 0.0426 seconds
+2026-07-17 00:00:24,165 - INFO - [SUCCESS] 76a4ec58fd4740d58e976f21687f941b514d1951f75fd3bb07774c2a546d46e4.elf - Extracted in 0.2322 seconds
+2026-07-17 00:00:35,943 - INFO - [SUCCESS] b2cc5ad7247be26a841db034090d14f9a980b4771dc95e9f4110f2066ac1236a.elf - Extracted in 11.7777 seconds
+2026-07-17 00:00:38,572 - INFO - [SUCCESS] 91996022b87d6650742603c95ec20f35d4dc48d808bfba066ad75d36104fe51c.elf - Extracted in 2.6283 seconds
+2026-07-17 00:00:39,465 - INFO - [SUCCESS] 2cfdca173c2cf8cc5a12827385f6bb6d69ba5b690084784806aa868989686d3b.elf - Extracted in 0.8924 seconds
+2026-07-17 00:00:42,021 - INFO - [SUCCESS] f7375f0ae0287b6aa966ae8ade9cadbd13821544a242f8418554ec462b71f8fd.elf - Extracted in 2.5563 seconds
+2026-07-17 00:00:42,022 - INFO - === DISASSEMBLY BENCHMARK REPORT ===
+2026-07-17 00:00:42,022 - INFO - Successful Extractions: 25
+2026-07-17 00:00:42,022 - INFO - Failed Extractions: 0
+2026-07-17 00:00:42,022 - INFO - Average Time per Binary: 1.0623 seconds
+2026-07-17 00:00:42,022 - INFO - Total Processing Time: 26.5573 seconds
