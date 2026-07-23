@@ -11,7 +11,7 @@ logging.basicConfig(
 		logging.StreamHandler()
 	]
 )
-RAW_DIR="data/raw/benign_mips"
+RAW_DIR="data/raw/benign_mips/executables"
 OUTPUT_DIR="data/processed_assembly/benign_mips"
 	
 def extract_assembly(file_path,output_path):
@@ -22,22 +22,30 @@ def extract_assembly(file_path,output_path):
 		r2.cmd('aaa')
 		asm_out= r2.cmd('pda')
 		
-		if not asm_out:
-			raise ValueError("No assembly extracted")
-		cleaned_lines=[]
-		for line in asm_out.splitlines():
-			line=line.strip()
-			if not line:
+		functions= r2.cmdj("aflj")
+		
+		if not functions:
+			raise ValueError("No functions extracted")
+		instructions=[]
+		
+		for func in functions:
+			offset=func["offset"]
+			r2.cmd(f"s {offset}")
+			pdf= r2.cmdj("pdfj")
+			if not pdf:
 				continue
-			parts=line.split(maxsplit=2)
-			if len(parts)>=3 and parts[0].startswith("0x"):
-				instruction=parts[2]
-				if ';' in instruction:
-					instruction=instruction.split(';')[0].strip()
-				cleaned_lines.append(instruction)
-		asm_out="\n".join(cleaned_lines)
+			ops= pdf.get("ops",[])
+			for op in ops:
+				if "opcode" not in op:
+					continue
+				opcode=op["opcode"]
+				opcode=opcode.split(';')[0].strip()
+				if opcode:
+					instructions.append(opcode)
+		if len(instructions)==0:
+			raise ValueError("No instruction extracted")
 		with open(output_path,'w') as f:
-			f.write(asm_out)
+			f.write("\n".join(instructions))
 			
 		r2.quit()
 		end_time=time.time()

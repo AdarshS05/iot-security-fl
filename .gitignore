@@ -1,7 +1,7 @@
 *.log
 disassembly_benchmark.log
-
-
+data/raw/benign_mips/executables/
+data/raw/benign_mips/libraries/
 *.asm
 
 *.elf

@@ -144,3 +144,4 @@
 2026-07-17 00:00:42,022 - INFO - Failed Extractions: 0
 2026-07-17 00:00:42,022 - INFO - Average Time per Binary: 1.0623 seconds
 2026-07-17 00:00:42,022 - INFO - Total Processing Time: 26.5573 seconds
+2026-07-23 13:55:12,561 - INFO - Starting bulk disassembly of 470 files in data/raw/benign_mips/executables
