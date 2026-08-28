@@ -1,0 +1,14 @@
+{
+  "model_type": "SiameseSVM",
+  "source_model": "/home/kali/iot-security-fl/models/siamese_svm1.pkl",
+  "onnx_model": "/home/kali/iot-security-fl/models/siamese_svm.onnx",
+  "input_name": "pair_difference",
+  "n_features": 18223,
+  "pair_operation": "absolute_difference",
+  "scaler": "StandardScaler",
+  "classifier": "LinearSVC",
+  "classes": [
+    0,
+    1
+  ]
+}

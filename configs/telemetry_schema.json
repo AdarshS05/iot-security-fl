@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WeightUpdateMessage",
+  "description": "Schema for federated learning client-to-server weight update messages.",
+  "type": "object",
+  "properties": {
+    "client_id": {
+      "type": "string",
+      "description": "Unique identifier for the client sending the update."
+    },
+    "round_number": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Federated learning training round number."
+    },
+    "schema_version": {
+      "type": "string",
+      "description": "Version of the telemetry schema (e.g., '1.0')."
+    },
+    "model_type": {
+      "type": "string",
+      "description": "Type/architecture of the model being updated (e.g., 'tabular', 'assembly')."
+    },
+    "weights": {
+      "type": "array",
+      "description": "Model weights represented as numbers or multi-dimensional nested arrays of numbers."
+    },
+    "num_samples": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of local training samples used for weighted aggregation."
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "ISO 8601 formatted timestamp when the message was serialized."
+    }
+  },
+  "required": [
+    "client_id",
+    "round_number",
+    "schema_version",
+    "model_type",
+    "weights",
+    "num_samples",
+    "timestamp"
+  ],
+  "additionalProperties": false
+}

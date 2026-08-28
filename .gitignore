@@ -1,10 +1,9 @@
+data/raw/
+data/processed/
+data/ngrams/
+results/
+*.joblib
 *.log
-disassembly_benchmark.log
-data/raw/benign_mips/executables/
-data/raw/benign_mips/libraries/
 *.asm
-
-*.elf
-*.o
-*.out
-*.bin
+__pycache__/
+.pytest_cache/

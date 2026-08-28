@@ -1,0 +1,25 @@
+{
+  "model_type": "LightGBM",
+  "source_model": "models/lightgbm_model.pkl",
+  "onnx_model": "models/onnx/lightgbm.onnx",
+  "n_features": 11,
+  "input_name": "input",
+  "threshold": 0.505645440158642,
+  "classes": [
+    "benign",
+    "malware"
+  ],
+  "feature_names": [
+    "global_entropy",
+    "overlay_size_bytes",
+    "has_overlay",
+    "entropy_high_ratio",
+    "num_strings",
+    "avg_string_len",
+    "max_string_len",
+    "num_ip_strings",
+    "num_url_strings",
+    "num_suspicious_strings",
+    "num_high_entropy_strings"
+  ]
+}
