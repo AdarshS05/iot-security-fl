@@ -48,6 +48,19 @@ try:
 except ImportError:
     HAS_R2 = False
 
+def is_elf(file_path: str) -> bool:
+    """
+    Check if a file is an ELF binary by reading its magic bytes (\x7fELF).
+    """
+    ELF_MAGIC = b"\x7fELF"
+    
+    try:
+        if not os.path.isfile(file_path):
+            return False
+        with open(file_path, "rb") as f:
+            return f.read(4) == ELF_MAGIC
+    except (OSError, PermissionError):
+        return False
 
 # ---------------------------------------------------------------------------
 # Suspicious API / string indicators commonly seen in IoT / Linux malware

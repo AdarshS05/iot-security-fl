@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
+from sklearn.model_selection import GridSearchCV
 import pandas as pd
 import pickle
 from scipy import sparse
@@ -12,18 +13,20 @@ from scipy import sparse
 def generate_pairs(X,y, pairs_per_sample=2, random_state=42):
 	rng= np.random.default_rng(random_state)
 	
+	X = np.asarray(X)
+	y = np.asarray(y)
+	
 	pair_features = []
 	pair_labels = []
 	
+	seen_pairs = set()
 	
-	y=np.asarray(y)
 	class0= np.where(y==0)[0]
 	class1= np.where(y==1)[0]
 	
-	seen_pairs = set()
 	
 	def add_pair(i,j,label):
-		key = (min(i,j),max(i,j))
+		key = (min(int(i), int(j)), max(int(i), int(j)))
 		if key in seen_pairs:
 			return False
 		seen_pairs.add(key)
@@ -34,39 +37,23 @@ def generate_pairs(X,y, pairs_per_sample=2, random_state=42):
 		return True
 		
 
-	for idx in range(len(y)):
-		current = X[idx]
-		
+	for idx in range(len(y)):	
 		if y[idx]==0:
 			positive_pool = class0[class0 != idx]
 			negative_pool = class1
 		else:
 			positive_pool = class1[class1 != idx]
 			negative_pool = class0
-	
-		def sample_unique_partners(pool,k):
-			pool= rng.permutation(pool)
-			chosen = []
-			
-			for candidate in pool:
-				key = (min(idx,candidate), max(idx,candidate))
-				if key not in seen_pairs:
-					chosen.append(candidate)
-					
-					
-		pos_choices = rng.choice(positive_pool, size=pairs_per_sample, replace=False if len(positive_pool) >= pairs_per_sample else True)
 		
-		for j in pos_choices:
-			diff = np.abs(current-X[j])
-			pair_features.append(diff)
-			pair_labels.append(1)
+		if len(positive_pool) > 0:
+			n = min(pairs_per_sample, len(positive_pool))
+			for j in rng.choice(positive_pool, size=n, replace=False):
+				add_pair(idx,j,1)
 		
-		neg_choices = rng.choice(negative_pool, size=pairs_per_sample, replace=False if len(negative_pool) >= pairs_per_sample else True)
-		
-		for j in neg_choices:
-			diff= np.abs(current-X[j])
-			pair_features.append(diff)
-			pair_labels.append(0)
+		if len(negative_pool) > 0:
+			n = min(pairs_per_sample, len(negative_pool))
+			for j in rng.choice(negative_pool, size=n, replace=False):
+				add_pair(idx,j,0)
 	return (np.asarray(pair_features),np.asarray(pair_labels))
 
 def load_tfidf_dataset(matrix_path, labels_path):
@@ -84,7 +71,7 @@ def load_tfidf_dataset(matrix_path, labels_path):
 		filenames= None
 	
 	if len(labels) != X.shape[0]:
-		raise ValueError(f"Mismatch: TF-IDF matrix has {X.shape[0]} rows but label.csv has {len(df)} entries")
+		raise ValueError(f"Mismatch: TF-IDF matrix has {X.shape[0]} rows but label.csv has {len(labels)} entries")
 
 	print("TF-IDF DATASET LOADED")
 	print(f"Samples          : {X.shape[0]}")
@@ -94,11 +81,13 @@ def load_tfidf_dataset(matrix_path, labels_path):
 	
 	return X, labels, filenames
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-MATRIX = "../../data/tfidf/tfidf_matrix.npz"
-LABELS = "../../data/tfidf/labels.pkl"
 
-MODEL_DIR = Path("../../models")
+MATRIX = PROJECT_ROOT / "data" / "tfidf" / "tfidf_matrix.npz"
+LABELS = PROJECT_ROOT / "data" / "tfidf" / "labels.pkl"
+
+MODEL_DIR = PROJECT_ROOT / "models"
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 MODEL_PATH = MODEL_DIR / "siamese_svm1.pkl"
 
@@ -124,18 +113,11 @@ scaler = StandardScaler()
 pair_X_train = scaler.fit_transform(pair_X_train)
 pair_X_test = scaler.transform(pair_X_test)
 
-from sklearn.model_selection import GridSearchCV
-
 param_grid = {"C": [0.01, 0.1, 1, 10, 100]}
-grid = GridSearchCV(LinearSVC(random_state=42, max_iter=20000), param_grid, cv=5, scoring="f1")
+grid = GridSearchCV(LinearSVC(random_state=42, max_iter=1000), param_grid, cv=5, scoring="f1")
 grid.fit(pair_X_train, pair_y_train)
 model = grid.best_estimator_
 print("Best C:", grid.best_params_)
-
-print("Training Siamese SVM...")
-
-model = LinearSVC(random_state=42, max_iter=5000)
-model.fit(pair_X_train,pair_y_train)
 
 pred= model.predict(pair_X_test)
 
