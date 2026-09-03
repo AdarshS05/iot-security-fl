@@ -1,9 +1,12 @@
 data/raw/
 data/processed/
 data/ngrams/
+src/ga/
+src/fl/docs/
 results/
 *.joblib
 *.log
 *.asm
+
 __pycache__/
 .pytest_cache/

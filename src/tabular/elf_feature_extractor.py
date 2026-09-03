@@ -240,19 +240,41 @@ def linking_and_symbol_features(binary) -> dict:
     ratio = (len(imported_funcs) / len(exported_funcs)) if exported_funcs else float(len(imported_funcs))
     feats["import_export_ratio"] = round(ratio, 4)
 
-    feats["num_dynamic_symbols"] = len(binary.dynamic_symbols)
-    feats["num_static_symbols"] = len(binary.symtab_symbols)
-    feats["is_stripped"] = int(len(binary.symtab_symbols) == 0)
+    # Symbol information is optional in ELF files.
+    # Sectionless ELF binaries may not have a usable static symbol table,
+    # so every symbol-table access must be guarded.
+    try:
+        dynamic_symbols = list(binary.dynamic_symbols)
+    except Exception:
+        dynamic_symbols = []
+
+    try:
+        static_symbols = list(binary.symtab_symbols)
+    except Exception:
+        static_symbols = []
+
+    feats["num_dynamic_symbols"] = len(dynamic_symbols)
+    feats["num_static_symbols"] = len(static_symbols)
+    feats["is_stripped"] = int(len(static_symbols) == 0)
 
     # Suspicious imported API calls
     suspicious_hits = sum(
-        1 for f in imported_funcs if any(sig == f or sig in f for sig in SUSPICIOUS_IMPORTS)
+        1
+        for f in imported_funcs
+        if any(sig == f or sig in f for sig in SUSPICIOUS_IMPORTS)
     )
     feats["num_suspicious_imports"] = suspicious_hits
 
-    # Debug info presence
+    # Debug information requires section headers.
+    # Sectionless ELF has no section metadata from which to identify
+    # .debug* sections, so report it as absent.
+    try:
+        sections = list(binary.sections)
+    except Exception:
+        sections = []
+
     feats["has_debug_info"] = int(
-        any(".debug" in s.name for s in binary.sections)
+        any(".debug" in s.name for s in sections)
     )
 
     return feats
@@ -263,10 +285,20 @@ def linking_and_symbol_features(binary) -> dict:
 # ---------------------------------------------------------------------------
 def section_features(binary, data: bytes) -> dict:
     feats = {}
-    sections = list(binary.sections)
+
+    # Section headers are optional in ELF.
+    # Some stripped/packed binaries have no section-header table at all.
+    # LIEF may emit a warning when sections are requested, so handle this
+    # explicitly and continue with segment/file-level features.
+    try:
+        sections = list(binary.sections)
+    except Exception:
+        sections = []
+
+    section_headers_present = len(sections) > 0
 
     feats["num_sections"] = len(sections)
-    feats["section_headers_present"] = int(len(sections) > 0)
+    feats["section_headers_present"] = int(section_headers_present)
 
     names = [s.name for s in sections]
     nonstandard = [n for n in names if n and n not in STANDARD_ELF_SECTIONS]
@@ -400,27 +432,28 @@ def extract_features(path: str, include_opcode: bool = False) -> dict:
         raise ValueError(f"LIEF failed to parse {path} as ELF")
 
     feats = {"file_name": os.path.basename(path)}
+
+    # Always-available ELF/header/segment features.
     feats.update(basic_and_header_features(path, binary, data))
+
+    # Dynamic/import information may still be available even when
+    # section headers are absent.
     feats.update(linking_and_symbol_features(binary))
+
+    # Section-derived features explicitly tolerate sectionless ELF.
     feats.update(section_features(binary, data))
+
+    # These operate directly on raw file bytes and therefore work
+    # regardless of whether section headers exist.
     feats.update(entropy_histogram(data))
     feats.update(string_features(data))
 
     if include_opcode:
         opcode_feats = opcode_and_cfg_features(path)
-        # keep top_opcodes separate (dict) from flat numeric features for CSV friendliness
         feats["top_opcodes"] = json.dumps(opcode_feats.pop("top_opcodes"))
         feats.update(opcode_feats)
 
     return feats
-
-
-def is_elf(path: str) -> bool:
-    try:
-        with open(path, "rb") as f:
-            return f.read(4) == b"\x7fELF"
-    except Exception:
-        return False
 
 
 def main():
