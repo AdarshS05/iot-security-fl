@@ -7,7 +7,7 @@ Covers: file/header metadata, sections, segments, symbols, imports, strings,
 entropy, packing indicators, and basic code-structure features.
 
 Dependencies:
-    pip install lief pyelftools --break-system-packages
+    pip install lief --break-system-packages
 
 Optional (for opcode/CFG features):
     - radare2 installed on system (https://github.com/radareorg/radare2)
@@ -35,12 +35,6 @@ try:
     import lief
 except ImportError:
     lief = None
-
-try:
-    from elftools.elf.elffile import ELFFile
-    from elftools.elf.sections import SymbolTableSection
-except ImportError:
-    ELFFile = None
 
 try:
     import r2pipe
@@ -201,7 +195,6 @@ def basic_and_header_features(path: str, binary, data: bytes) -> dict:
 
     rwx_count = 0
     for s in segments:
-        flags = str(s.flags)
         # LIEF segment flags: R, W, X bits
         is_r = s.has(lief.ELF.Segment.FLAGS.R)
         is_w = s.has(lief.ELF.Segment.FLAGS.W)
@@ -520,4 +513,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
