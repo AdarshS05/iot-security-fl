@@ -124,20 +124,6 @@ def export_siamese_svm(model_dir= MODEL_DIR):
         )
     ]
 
-    # Convert the complete sklearn pipeline.
-    #
-    # IMPORTANT:
-    # The existing model expects:
-    #
-    # abs(tfidf_a - tfidf_b)
-    #       ↓
-    # StandardScaler
-    #       ↓
-    # LinearSVC
-    #
-    # The ONNX input is therefore the already-computed
-    # absolute TF-IDF difference vector.
-
     from sklearn.pipeline import Pipeline
 
     pipeline = Pipeline(

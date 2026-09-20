@@ -2,8 +2,8 @@ import os
 import re
 from collections import Counter
 
-INPUT_DIR = "data/processed_assembly/malware_mips"
-OUTPUT_DIR = "data/normalized_assembly/malware_mips"
+INPUT_DIR = "data/processed_assembly/test"
+OUTPUT_DIR = "data/normalized_assembly/test"
 
 
 REGISTER_MAP = {
@@ -59,22 +59,22 @@ def normalize_operand(op_str):
         offset_token = normalize_immediate(offset_str)
         return f'MEM_{offset_token}_{reg_token}'
         
-    if op in REGISTER_MAP:
+    if op_str in REGISTER_MAP:
         return REGISTER_MAP[op]
         
     if re.fullmatch(r'0x[\da-fA-F]+', op_str):
         return "ADDR_IMM"
         
-    if op.startswith("sym.") or op.startswith("fcn."):
+    if op_str.startswith("sym.") or op.startswith("fcn."):
         return 'FUNC'
       
-    if op.startswith("str."):
+    if op_str.startswith("str."):
         return 'STRING' 
     
-    if re.fullmatch(r"-?(?:0x[\da-fA-F]+|\d+)", op):
-        return normalize_immediate(op)
+    if re.fullmatch(r"-?(?:0x[\da-fA-F]+|\d+)", op_str):
+        return normalize_immediate(op_str)
         
-    return op
+    return op_str
     
 tot_files=0
 tot_instrs=0

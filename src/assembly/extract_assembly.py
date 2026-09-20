@@ -90,4 +90,3 @@ print(f"Successful Extractions: {success}")
 print(f"Failed Extractions: {failure}")
 print(f"Average Time per Binary: {avg_time:.4f} seconds")
 print(f"Total Processing Time: {tot_time:.4f} seconds")
-

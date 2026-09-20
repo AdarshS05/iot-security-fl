@@ -1,0 +1,26 @@
+[
+  {
+    "valid": true,
+    "path": "data/raw/malware_dataset/1a2aa2238e3563327a7c1394bbde2e43fd0c0cc537e7b6eb1fdaaef76f23e800",
+    "checks": {
+      "lief_parse": true,
+      "elf_structure": true,
+      "architecture": true,
+      "original_bytes_preserved": true,
+      "entrypoint_preserved": true,
+      "segment_count_preserved": true,
+      "load_segments_preserved": true,
+      "section_count_preserved": true,
+      "file_type_preserved": true,
+      "machine_preserved": true
+    },
+    "metrics": {
+      "original_size": 71508,
+      "variant_size": 71508,
+      "appended_bytes": 0,
+      "changed_bytes_in_overlap": 0,
+      "percent_overlap_changed": 0.0
+    },
+    "reason": "ok"
+  }
+]
