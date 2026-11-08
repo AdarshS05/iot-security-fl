@@ -1,6 +1,0 @@
-GA Weekly Review Summary
-==========================
-
-Stage 0: fitness=0.040217, cost=0.2153, changed_overlap=0, appended_bytes=882, valid=True
-Stage 1: fitness=0.093102, cost=0.2000, changed_overlap=89, appended_bytes=0, valid=True
-Stage 2: fitness=0.105866, cost=0.4500, changed_overlap=12, appended_bytes=0, valid=True
