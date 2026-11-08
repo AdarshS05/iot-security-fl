@@ -1,6 +1,9 @@
 data/
 results/
 reports/
+fl-orchestration/
+plots/
+outputs/
 *.joblib
 *.log
 *.asm
