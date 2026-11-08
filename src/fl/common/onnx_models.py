@@ -233,43 +233,17 @@ class ONNXDetector:
 
         return np.abs(X - reference)
 
+    # =============================================================    # COMBINED
     # =============================================================
-    # COMBINED
-    # =============================================================
+    def predict_both(self, tabular_features, X_tfidf_candidate):
+        tabular = self.predict_tabular(tabular_features)
+        siamese = self.predict_siamese_fixed_ref(X_tfidf_candidate)
 
-    def predict_both(
-        self,
-        tabular_features,
-        pair_difference,
-    ):
-        tabular = self.predict_tabular(
-            tabular_features
-        )
+        tabular_score = float(np.mean(tabular["malware_probability"]))
+        siamese_score = float(np.mean(siamese["labels"]))
 
-        siamese = self.predict_siamese(
-            pair_difference
-        )
-
-        tabular_score = float(
-            np.mean(tabular["malware_probability"])
-        )
-
-        siamese_labels = siamese["labels"]
-
-        siamese_score = float(
-            np.mean(siamese_labels)
-        )
-
-        # Initial equal-weight consensus.
-        # Calibration can replace this later.
-        consensus_score = (
-            0.5 * tabular_score
-            + 0.5 * siamese_score
-        )
-
-        consensus_label = int(
-            consensus_score >= 0.5
-        )
+        consensus_score = 0.5 * tabular_score + 0.5 * siamese_score
+        consensus_label = int(consensus_score >= 0.5)
 
         return {
             "tabular": tabular,
@@ -279,3 +253,47 @@ class ONNXDetector:
             "consensus_score": consensus_score,
             "consensus_label": consensus_label,
         }
+
+    def load_fixed_reference(self):
+        """Loads the canonical 10-row reference set exported by
+        common/export_siamese_fixed_ref.py. Call once after __init__."""
+        ref_path = self.model_dir / "siamese_fixed_reference.npz"
+        if not ref_path.exists():
+            raise FileNotFoundError(
+                f"{ref_path} missing -- run common/export_siamese_fixed_ref.py first"
+            )
+        data = np.load(ref_path)
+        self.ref_vectors = data["ref_vectors"].astype(np.float32)
+        self.ref_labels = data["ref_labels"]
+        return self.ref_vectors, self.ref_labels
+
+    def predict_siamese_fixed_ref(self, X_tfidf):
+        """
+        Scores each row of X_tfidf against the fixed 10-row reference set
+        (5 benign + 5 malware), using malware_margin_mean - benign_margin_mean.
+        This is the SAME decision rule used by ga_mutator.SiameseSVMScorer,
+        so GA fitness and deployed inference agree.
+
+        X_tfidf: (N, D) dense array.
+        Returns dict with "score" (N,) and "labels" (N,) (1 = malware-like).
+        """
+        if not hasattr(self, "ref_vectors"):
+            self.load_fixed_reference()
+
+        X = np.asarray(X_tfidf, dtype=np.float32)
+        if X.ndim == 1:
+            X = X.reshape(1, -1)
+
+        input_name = self.siamese.get_inputs()[0].name
+        scores = np.empty(X.shape[0], dtype=np.float32)
+
+        for i, row in enumerate(X):
+            diffs = np.abs(self.ref_vectors - row[None, :])  # (10, D)
+            outputs = self.siamese.run(None, {input_name: diffs})
+            margins = np.asarray(outputs[1]).reshape(-1)  # (10,)
+            malware_m = margins[self.ref_labels == 1].mean()
+            benign_m = margins[self.ref_labels == 0].mean()
+            scores[i] = malware_m - benign_m
+
+        labels = (scores > 0).astype(np.int64)
+        return {"score": scores, "labels": labels}

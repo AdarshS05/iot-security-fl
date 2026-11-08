@@ -1,0 +1,157 @@
+{
+  "experiment": "final_n1_tabular_lightgbm",
+  "label_mapping": {
+    "benign": 0,
+    "malware": 1
+  },
+  "split_counts": {
+    "train": 699,
+    "test": 150,
+    "validation": 150
+  },
+  "class_counts": {
+    "train": {
+      "benign": 349,
+      "malware": 350
+    },
+    "validation": {
+      "benign": 75,
+      "malware": 75
+    },
+    "test": {
+      "benign": 75,
+      "malware": 75
+    }
+  },
+  "feature_columns": [
+    "file_size_bytes",
+    "global_entropy",
+    "elf_type",
+    "abi_version",
+    "endianness",
+    "entry_point",
+    "program_headers",
+    "load_segments",
+    "rwx_segments",
+    "has_interp",
+    "has_dynamic",
+    "has_gnu_stack",
+    "has_relro",
+    "num_libraries",
+    "is_statically_linked",
+    "num_uncommon_libraries",
+    "num_imported_functions",
+    "num_exported_functions",
+    "import_export_ratio",
+    "num_dynamic_symbols",
+    "num_static_symbols",
+    "is_stripped",
+    "num_suspicious_imports",
+    "num_sections",
+    "section_headers_present",
+    "num_nonstandard_sections",
+    "num_executable_sections",
+    "text_size_ratio",
+    "max_section_entropy",
+    "mean_section_entropy",
+    "overlay_size_bytes",
+    "has_overlay",
+    "entropy_variance",
+    "entropy_high_ratio",
+    "num_strings",
+    "avg_string_len",
+    "max_string_len",
+    "num_ip_strings",
+    "num_url_strings",
+    "num_suspicious_strings",
+    "num_high_entropy_strings"
+  ],
+  "categorical_columns": [
+    "elf_type",
+    "endianness"
+  ],
+  "dropped_all_null_training_features": [],
+  "dropped_constant_training_features": [
+    "architecture",
+    "os_abi",
+    "has_debug_info",
+    "has_packer_signature"
+  ],
+  "model_parameters": {
+    "objective": "binary",
+    "n_estimators": 800,
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "class_weight": null,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbosity": -1,
+    "colsample_bytree": 0.9,
+    "subsample": 0.9,
+    "subsample_freq": 1,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0
+  },
+  "metrics": {
+    "threshold_selected_on_validation": 0.5,
+    "validation_best_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "test_roc_auc": 1.0,
+    "test_pr_auc": 1.0,
+    "test_confusion_matrix_labels_order": [
+      "benign_0",
+      "malware_1"
+    ],
+    "test_confusion_matrix": [
+      [
+        75,
+        0
+      ],
+      [
+        0,
+        75
+      ]
+    ],
+    "test_classification_report": {
+      "benign": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 75.0
+      },
+      "malware": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 75.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 150.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 150.0
+      }
+    },
+    "best_iteration": 800
+  },
+  "input_feature_csv": "/data/iot-malware-fl/iot-malware-abhi/data/features/tabular_n1/tabular_feature.csv",
+  "notes": [
+    "Uses the pre-existing final_n1 split; no new random split was created.",
+    "Threshold was selected using validation F1 only.",
+    "Test metrics were computed after threshold selection.",
+    "Identifier, label, source, split, and hash/path fields are excluded from model inputs.",
+    "Feature columns with high single-feature AUC are flagged for review, not automatically removed.",
+    "Categorical levels are learned from training data and stored in the fitted LightGBM model."
+  ]
+}

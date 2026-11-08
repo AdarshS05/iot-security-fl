@@ -1,0 +1,136 @@
+{
+  "model_type": "Siamese-style pairwise Linear SVM",
+  "feature_representation": "absolute_tfidf_difference",
+  "feature_count": 30000,
+  "class_mapping": {
+    "benign": 0,
+    "malware": 1
+  },
+  "pair_label_mapping": {
+    "0": "different_class",
+    "1": "same_class"
+  },
+  "selected_k": 3,
+  "n_way": 2,
+  "aggregation": "mean_pairwise_same_class_decision_score",
+  "pair_classifier": {
+    "type": "LinearSVC",
+    "parameters": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 20000,
+      "random_state": 42
+    },
+    "classes": [
+      0,
+      1
+    ],
+    "decision_score_interpretation": "positive = same class; negative = different class"
+  },
+  "pair_training": {
+    "pairs_per_relation": 20000,
+    "same_class_pairs": 20000,
+    "different_class_pairs": 20000,
+    "total_pairs": 40000,
+    "training_samples": 699
+  },
+  "tfidf": {
+    "vocabulary_size": 30000,
+    "parameters": {
+      "max_features": 30000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "lowercase": false,
+      "sublinear_tf": true,
+      "use_idf": true,
+      "norm": "l2",
+      "dtype": "<class 'numpy.float32'>",
+      "token_pattern": "(?u)\\b[\\w.$:+-]+\\b"
+    },
+    "fit_partition": "NOT_VERIFIED: confirm vectorizer was fitted on training data only"
+  },
+  "evaluation": {
+    "protocol": "binary_few_shot_episodic",
+    "episodes": 100,
+    "queries_per_class": 10,
+    "k_values": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "validation_seeds": {
+      "1": 43,
+      "3": 45,
+      "5": 47,
+      "10": 52
+    },
+    "test_seed": 1045,
+    "support_query_disjoint_within_episode": true,
+    "test_samples_reused_across_episodes": true,
+    "test_metrics_interpretation": "Mean and standard deviation across episodic evaluations, not one fixed prediction per test sample."
+  },
+  "validation_results": {
+    "1": {
+      "accuracy_mean": 0.9990000000000001,
+      "accuracy_std": 0.007035264706814491,
+      "precision_mean": 1.0,
+      "precision_std": 0.0,
+      "recall_mean": 0.998,
+      "recall_std": 0.014070529413628966,
+      "f1_mean": 0.9989473684210526,
+      "f1_std": 0.007405541796646833
+    },
+    "3": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "precision_mean": 1.0,
+      "precision_std": 0.0,
+      "recall_mean": 1.0,
+      "recall_std": 0.0,
+      "f1_mean": 1.0,
+      "f1_std": 0.0
+    },
+    "5": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "precision_mean": 1.0,
+      "precision_std": 0.0,
+      "recall_mean": 1.0,
+      "recall_std": 0.0,
+      "f1_mean": 1.0,
+      "f1_std": 0.0
+    },
+    "10": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "precision_mean": 1.0,
+      "precision_std": 0.0,
+      "recall_mean": 1.0,
+      "recall_std": 0.0,
+      "f1_mean": 1.0,
+      "f1_std": 0.0
+    }
+  },
+  "test_results": {
+    "accuracy_mean": 0.9984999999999999,
+    "accuracy_std": 0.008572330399888271,
+    "precision_mean": 1.0,
+    "precision_std": 0.0,
+    "recall_mean": 0.997,
+    "recall_std": 0.017144660799776525,
+    "f1_mean": 0.9984210526315789,
+    "f1_std": 0.00902350568409292
+  },
+  "random_state": 42,
+  "software_versions": {
+    "python": "3.10.12",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit_learn": "1.7.2",
+    "joblib": "1.6.0"
+  }
+}

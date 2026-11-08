@@ -1,0 +1,42 @@
+{
+  "experiment": "entropy_strings_only_final",
+  "model_type": "LightGBM Booster",
+  "model_file": "lightgbm_entropy_strings.txt",
+  "feature_columns": [
+    "global_entropy",
+    "max_section_entropy",
+    "mean_section_entropy",
+    "entropy_variance",
+    "entropy_high_ratio",
+    "num_strings",
+    "avg_string_len",
+    "max_string_len",
+    "num_ip_strings",
+    "num_url_strings",
+    "num_suspicious_strings",
+    "num_high_entropy_strings"
+  ],
+  "threshold": 0.9419649314154088,
+  "threshold_selection": "Validation F1",
+  "validation_f1": 0.9932885906040269,
+  "test_metrics": {
+    "accuracy": 0.9733333333333334,
+    "precision": 1.0,
+    "recall": 0.9466666666666667,
+    "f1": 0.9726027397260274,
+    "roc_auc": 0.9994666666666666,
+    "pr_auc": 0.9994871794871796
+  },
+  "test_confusion_matrix": [
+    [
+      75,
+      0
+    ],
+    [
+      4,
+      71
+    ]
+  ],
+  "training_split": "Existing final_n1 split",
+  "status": "Provisional final model"
+}

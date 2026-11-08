@@ -1,0 +1,5 @@
+experiment,feature_count,threshold,validation_f1,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_pr_auc,confusion_matrix
+A_all_features,41,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[75, 0], [0, 75]]"
+B_without_program_headers,40,0.5,1.0,1.0,1.0,1.0,1.0,0.9999999999999999,1.0,"[[75, 0], [0, 75]]"
+C_structural_only,29,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[75, 0], [0, 75]]"
+D_entropy_and_strings_only,12,0.9419649314154088,0.9932885906040269,0.9733333333333334,1.0,0.9466666666666667,0.9726027397260274,0.9994666666666666,0.9994871794871796,"[[75, 0], [4, 71]]"

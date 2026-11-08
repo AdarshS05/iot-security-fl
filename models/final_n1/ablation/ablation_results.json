@@ -1,0 +1,90 @@
+[
+  {
+    "experiment": "A_all_features",
+    "feature_count": 41,
+    "threshold": 0.5,
+    "validation_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "test_roc_auc": 1.0,
+    "test_pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        75,
+        0
+      ],
+      [
+        0,
+        75
+      ]
+    ]
+  },
+  {
+    "experiment": "B_without_program_headers",
+    "feature_count": 40,
+    "threshold": 0.5,
+    "validation_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "test_roc_auc": 0.9999999999999999,
+    "test_pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        75,
+        0
+      ],
+      [
+        0,
+        75
+      ]
+    ]
+  },
+  {
+    "experiment": "C_structural_only",
+    "feature_count": 29,
+    "threshold": 0.5,
+    "validation_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "test_roc_auc": 1.0,
+    "test_pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        75,
+        0
+      ],
+      [
+        0,
+        75
+      ]
+    ]
+  },
+  {
+    "experiment": "D_entropy_and_strings_only",
+    "feature_count": 12,
+    "threshold": 0.9419649314154088,
+    "validation_f1": 0.9932885906040269,
+    "test_accuracy": 0.9733333333333334,
+    "test_precision": 1.0,
+    "test_recall": 0.9466666666666667,
+    "test_f1": 0.9726027397260274,
+    "test_roc_auc": 0.9994666666666666,
+    "test_pr_auc": 0.9994871794871796,
+    "confusion_matrix": [
+      [
+        75,
+        0
+      ],
+      [
+        4,
+        71
+      ]
+    ]
+  }
+]

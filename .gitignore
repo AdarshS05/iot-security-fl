@@ -1,9 +1,6 @@
-data/raw/
-data/processed/
-data/ngrams/
-src/ga/
-src/fl/docs/
+data/
 results/
+reports/
 *.joblib
 *.log
 *.asm

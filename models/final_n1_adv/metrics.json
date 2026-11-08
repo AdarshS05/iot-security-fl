@@ -1,0 +1,119 @@
+{
+  "baseline": {
+    "threshold": 0.9419649314154088,
+    "accuracy": 0.9733333333333334,
+    "precision": 1.0,
+    "recall": 0.9466666666666667,
+    "f1": 0.9726027397260274,
+    "roc_auc": 0.9994666666666666,
+    "pr_auc": 0.9994871794871796,
+    "confusion_matrix": [
+      [
+        75,
+        0
+      ],
+      [
+        4,
+        71
+      ]
+    ],
+    "classification_report": {
+      "benign": {
+        "precision": 0.9493670886075949,
+        "recall": 1.0,
+        "f1-score": 0.974025974025974,
+        "support": 75.0
+      },
+      "malware": {
+        "precision": 1.0,
+        "recall": 0.9466666666666667,
+        "f1-score": 0.9726027397260274,
+        "support": 75.0
+      },
+      "accuracy": 0.9733333333333334,
+      "macro avg": {
+        "precision": 0.9746835443037974,
+        "recall": 0.9733333333333334,
+        "f1-score": 0.9733143568760008,
+        "support": 150.0
+      },
+      "weighted avg": {
+        "precision": 0.9746835443037974,
+        "recall": 0.9733333333333334,
+        "f1-score": 0.9733143568760007,
+        "support": 150.0
+      }
+    }
+  },
+  "adversarial_model": {
+    "threshold": 0.5,
+    "accuracy": 0.9866666666666667,
+    "precision": 0.974025974025974,
+    "recall": 1.0,
+    "f1": 0.9868421052631579,
+    "roc_auc": 0.9996444444444444,
+    "pr_auc": 0.9996536796536795,
+    "confusion_matrix": [
+      [
+        73,
+        2
+      ],
+      [
+        0,
+        75
+      ]
+    ],
+    "classification_report": {
+      "benign": {
+        "precision": 1.0,
+        "recall": 0.9733333333333334,
+        "f1-score": 0.9864864864864865,
+        "support": 75.0
+      },
+      "malware": {
+        "precision": 0.974025974025974,
+        "recall": 1.0,
+        "f1-score": 0.9868421052631579,
+        "support": 75.0
+      },
+      "accuracy": 0.9866666666666667,
+      "macro avg": {
+        "precision": 0.987012987012987,
+        "recall": 0.9866666666666667,
+        "f1-score": 0.9866642958748222,
+        "support": 150.0
+      },
+      "weighted avg": {
+        "precision": 0.987012987012987,
+        "recall": 0.9866666666666667,
+        "f1-score": 0.9866642958748222,
+        "support": 150.0
+      }
+    }
+  },
+  "validation_f1": 0.9868421052631579,
+  "original_threshold": 0.9419649314154088,
+  "new_threshold": 0.5,
+  "clean_training_rows": 699,
+  "adversarial_training_rows": 199,
+  "combined_training_rows": 898,
+  "unique_adversarial_sources": 87,
+  "ga_reconstruction_counters": {
+    "reports": 468,
+    "evasive_records": 363,
+    "source_not_in_dataset": 281,
+    "non_training_source": 57,
+    "non_malware_source": 0,
+    "baseline_mismatch": 0,
+    "variant_mismatch": 164,
+    "validated": 199
+  },
+  "model_parameters": {
+    "n_estimators": 800,
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42
+  }
+}

@@ -1,0 +1,3060 @@
+[
+  {
+    "valid": true,
+    "path": "data/raw/malware_dataset/1aa21cbbc74b1f74a60e35302165c26c60c98d18336595c3e3392f5066b8b686",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_caa01b36876d4d8ba706abcbd06dbef8.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_12930b08e54a48409aa40b20c76f5963.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f56198f8db1c4248b5fecb783948d50c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_7a3cb03aa1f6474a9988fbdab77b3196.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9ebb29220bd1451f9f7ef0a6ce6af710.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_83b4507d0948473981d7a645bdede3ca.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_738d5e8869634b6a9e878f149bf263f7.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9efb960f9e31497db3ec5c176a10407f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_8d141258aa3c43588a359297beb54892.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_8ca7f378861c451aac88fe402c586762.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_72be66eaa6fa42ccb8f21d36b02bcc6c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d6e173a4f8c74422945d1cc182a441ef.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_513aaba091a440ebb16573ee1a935b4a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_0728232919e8488f9761cfb8fc4002fb.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f21629f7202b4d59a7c49925342043e2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_14aba12d6f9e409b8d36b446c9a0ed4c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e9a89999f6d14e2ba4652d6b64518f57.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e63c050514624c8ea19002190958cb66.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_00b93c3d562a4c1082bf8997fecb014a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_0c3af06b4b7b4b5e8532b3fb1a07647f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_704d6c2cd7d643048a6a0fcff87cdac4.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2ffce281011d4d0f867fd12244d68e35.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d7348d71bb0a49ff9e9e1d52930d3fca.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5524861c4c6742bcb425f317fc6b97b0.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_283d60248f8146b6b81a969e15547ca3.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_80ea31a856a3477e94d9abcd65e4dc57.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_05d6cc7b52c64edba54bdeb644d6c9f3.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d39c4f1efe59427c89cc5ab39daca52b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_bf9d178c538e488a96021477ac640fb2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_184da28ec3084421b2fbbd030da414a5.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5a68ecdbdd1a40d3aaebffd6f0451bc0.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6a37613b97a84ae09281b38e9ee87a83.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_669a1323a06e481c9a7523ba96d6d1fb.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e97d154b666541719cfdc0174a442ad6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_bc2f0da62e0b487ba8f1c66777915c51.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_3066c1ee43894b14b2ef476b2989d203.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e42be9d6517c4f7abf49e0ab548d63e4.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a671e23bf1ab4b12b356a5dafcc9a29a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_4085d6bc57a145f5943b78f3a25c983a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_110886fd8fa84d21b5cb3d5214e5a464.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_1adec45c56774ac7b9cdf98166b143fa.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_20e3aff5e4ff486393c4729b25280805.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_03f0e441ffd340c59160e9e5182a39de.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_061d4eca0e8747ff813aa4850a24f3d2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_fc048dbb3753422999a35d193a85ee7f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a37cb847c87e4119bb2f0d27e62d873f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_22f837877bc841c39f1118bc2be16a83.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c44aef167a3047ec909204b70c6e8205.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6c577adc99b94ac5b887afe791d09d9b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ada129da109c4939bf8349ddc14b5e35.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_543fa001165c4fe68239ac44e0042a8a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_822af836f62b41e98633fa9354747753.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5573a34f015242e09ac75e9a2cdab831.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_10398c30ab9548e59ec8e942e1a3ef27.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_27c0715e63d043d2a34b0d9b2c53a4cb.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_dbec48aeccae4ee4b7e2999f7994bd2d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_3a22d4e21f0c4248855e07bb3df0e601.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_acb3ae52888a4336994d5a1faa54b04c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_39dea1b324f8447bacb1079855485fac.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9f93169de68f4f649b062b90e8007257.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d09378b9cee1436ea8c55e63fb289690.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_171a61536805422da0922c7c3d295437.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d41db220c143492bb492ee1cbac596e6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c7077781d8e04bdca25ef17200a50e62.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_7aec7b274c8943e3885d04914b9aee25.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ebc958d1044840cf8d2d87d1fdb5d408.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_1c3cfa6389f64254912f1b151c9e6d43.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_47f724c46f56414c885f7862b6a762b7.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_24eeab37dff242b0a39cf2631e1c8b31.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_fef18cdb95bc4a858be5ca0b5ad61fa3.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2288068b8b324f79b34b082d53978ba1.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_aa3ade3677054eccb663c25615364675.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d2b61ddd331b4b17b985188c559b9317.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_93398063dbd14d8fa6e953ef823fa38a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_157112198f28497d9c57214e6cdeaaa6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_cd8af531802d4276b77dbc487684e78e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6a2782cf77524e81980cefa3fc887bb9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ac619ba1424844ddbe2a875fddfe45a6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_092c37f9973f4d1f9cbad6e3d6064582.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_911f472c0a284b65bede58da0baeb097.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_fd8fcba4b8504459a7e44b48fda81b95.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_4d4d50c596444d1ba07b697349ead8b5.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_29be4356c74f4212a287e36c3109ae77.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f598c84caf9d400f99970979c9c87fdc.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e6ddc0658f954271bd1c5c2341877e30.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_453b73d369bc46dcb357dc991f7139a9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_edcdb28d3d4d407e909a371c50eb558a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2c825a8ec5fb40e1ad6b15a6be7545a2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_b174ae1102754c7095bb9bd2f373e09d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_cc79dc665ab542a68fc8ba3a8f7eb93a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_090b47562477453d88af74f415b9b548.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_b4be4dadc94c414ba16c1db5af85ad99.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c08e093f96a64d4098ac86ca2e5742b6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5f924b893d5b4153a0e25929825f3d57.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_3227d9909d9b4bfda83dd3f902eac380.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_65e084bc43a3410dbadbe9188dda3d11.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_879e9e3ad9294c38ac7015ec6dc820a9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_902c1ad823ce4013b28b6a3052de20de.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ad9e192bad9b4c5496343da340a8da9c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_3621bef4211844f684bb17ac9e7ef7bd.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_451e60d2699d4aefb00bd25bfcacb202.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_3a0d975fbbc84ee59eea5c419082fe69.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_caa603460ec9470184ebe8a7f42122ff.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_40540332aa41458db432bf3059e04faf.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ea8ed6e3aebe4eff92d88d86c5540bd5.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_03312da1580a41b990cc5fddfe3fffb2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e11a5a2d160b435fb1133eacf6756b39.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_884b4a83aea2425ea96645d47eda91c9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_974a8961334c413a9a2ede53307678c5.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6fc82d055bba4c4085db7e019438d6c9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c96e7722fe3544c3b62acc4b102b32a2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ed35d6bb99354ebe87671b742ef6bc47.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_899bf4b538e84a3baa6fdd762b7c42f5.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a6c1f4b6f1b8410b84427f6f6a5061b6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9c516ce11eb34d138c4e6e86bd15f674.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_794d69f80cec4f9ea0d24cb0424d4a47.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_76a773e3bdc148b18b929910c92b947c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_124f22cdc0bf482093a45d729872f288.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a1129cba84a74948adf0dc724d96afa4.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ad37bacd455f4e5a919cdf71c1555f18.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2429f321720645ee9e568b9fba1bf8fa.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_1ddfb94b830b4590bb1993e9ed92d056.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f5dfa986f43a4ca48487674fabe648b9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_4b4140da71ba46b4bd5c68d3bce47004.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_0e2386004e214ef4b56d034103929108.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e81f2422c3444b10b29eaab36df1277c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_13807347061645a58a4038844020ef8a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e9419cf7742644c8a4c3271e2a55e6da.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_93c34e6e9fed404c99a16110c05db7d8.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f943cbefe19042358d34a53b9b3e9d68.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9d4660749d1a421fa87009b95b739908.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_aa88f15469154c3bb41c39e4d2ce5541.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_b0696084d8cc4422b0ac0de5bd4274fc.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c99a69e598264446bc33f9c936fa2eed.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_3c5833750fb74efaacb50d2a107f85c5.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_0992623bf0274c069abc8cae715733c3.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5a95b3e2f85647049fd73611fd16daaa.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_88c52d3dfeaa46a6b6d7001d7cdbab4f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_4619461f347e4886b883cbdf4e7521d0.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_77ed07d40b9e414d8a5b7f8b4cf1904c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_b140e1def7a94b8cab02f8e0dc7faf78.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_be1d0204d2e44db4b99c88cfb12c00ac.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_34bb2144e2634c539079c41758455efb.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_1b4eea86e6754a73b92091426c32ac9c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2667103db2264e9d940816d41255e10c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d34ac5092e244d179f885e43604a8abb.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5c663b0bd3f84d92ab07d8ceb308d78c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2ec91448d6f0455a89e61a592794c6bb.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_db772af5eb4c41b9ae289037fc650827.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_49787bfde6e64d37a04201dd933b43fa.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c71fc2a3425d4db88650e05b21a4165c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_14bf3fb6b4a843acaadb087487e2c07d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_1749c60f581a45da957beb41daea562d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d6c920c095db4d0e88e20e7fb7969e67.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_898763b6c34346c187a8d366dd70694e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2ea31e10260b49b1b0e725df18b6691f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_38a7ac580d0f41e1b851fa208899bd46.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_cc5f933873c945e1b241883db25fe9ac.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_fbe952fd107143058105c5098c707b5a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_61f4e5e107374b18a76b7c555368f5e1.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_bd25f00027a247d089920baf3aff714b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9f7220e9a7b14f5dac653e73ea1b4f64.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_24ba1ce5858f41febd14a099537ce8ba.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_0fa49b0861974826a9890b6f82315d06.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ee47a130a5ba4c169b08582589b2e626.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9883b24745a146d79b5b5bec754cfcc1.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_8d96893617964ab3b2712cba86bf9a28.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5dd61bbf24d54218a6fe632ade732516.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_66915ea117fe40178fbccebb24268c07.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d81ec499e08b4382aad92b5ae40b3826.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_dff38df21cee4b2e8ecf280479bcb733.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_db3a0b8717454c73b5cbfca4d323c79c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a17cada10f7d4f8e99f23f6483bbc893.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_14904f507bdb48bb992ba111dfd1e8df.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_dcc438fa722e4770af3076e783229c27.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_45a9172ab9a04aee9ad52584c92a0bd2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a3d022496ecd400490ed867230214da1.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ce10f52f19ea4d08a7ea53b91eac6ac0.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_1a427e44ea9a48d693942233bd75272e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_02d84537ebef487988fc53d5aefcad4c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9a2a6682686f4b29b7fb424bb0d1a212.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_0055926e60eb48558f76e29c4a68912d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_cbbc78a8f3854a78be78860a404d134f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_66dce2b07a8541be99f842d3a6ca6c19.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c2b9855de6e84aeaa8598d03bf6f8750.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_8de7ff0bf8f443d7ad250a5d77b335fa.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6a175ee9e07542f98d0070ac5ea9ff02.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_410cff9fae3243f9962a70bf3f5d643a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a6cbf2a0e6324c06b65e4dde2ab48921.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d0324f179ca04efeb1367a7d43366698.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a4094ae2b480480998fa62b3e4ddf358.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_032858215564424388cb99c5f6001635.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_bca3743a5f404327be21f224845ec8fa.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ca701156c3e54cb0ad89fae7c766b170.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6bddcac56c34462a8b6fa071ee91b655.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_57edfaed77a044dc854b6e33afdb2872.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_beec56ae5cd1428292d3170c427323e2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_a62177bd70d8464792b408f5981bd586.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e2b60817a5e7466aba83a7267635780e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_58c63666049e4ee482055dc8ba06e760.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_60df9544adc34b1e93b1654ff1a6eeca.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_233484b1729c4b749eb90e13f3138a22.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_da4769988cb54cb49b5418d50b4ff110.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_258abca4ddea445a900b2caa177b53ff.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c28564dfcc6f46dca5b2e0a3fce05019.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d256243595f24819ac3daf43c14f986d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_260e0398c1d34a66858cdaa1cbc5d0f9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_fdcd76985c8e48d3b3afc2e5fbd8a935.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_73a3f78582c542ef9b65958738a1022e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2cb9e72fab204588b916d188d5e61ee6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9468f271df6544adbd3894bb006d2da8.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_4c1e4cead9e14983bbcfadc75e689208.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_bc59fd859a6b4575a901852ecfbacb86.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_bc75c026e6ad4e438fcdec12a2df3ad0.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e3d6da43988a4cf69625d477dda19041.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_20f3e41a41b443b39530ed64119a7012.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_b6700662546949acae96c14d76e3096c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_557daf0e163e4243a9b7a4ae958f344b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_929ffb6fb1cf45119ec9899f678d9eb8.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_65212806cb4043b8904e44c2072c833e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d54822f6d43e4fd8b64d1d6818104a0d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6cb0d770522c4d7baf14d0d151f09918.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_faf66f8de6f74892acaebd10c460a078.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f40da1390a6a4c24b83c05ba850443e4.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_744cc2007b1048dd8304ff857e46a4b1.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_872c7b3c3e7545909d34f91d2cdf8c3a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_d83262a448e04fc89c1fcda144ccbb1d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f1a32dcb502f41d98f2acf6e384f2bb9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_33f04b40670a48d08317abe23e1725df.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_587947af12b843dcada89ac8ef24a646.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_253280d897e94d46b19debf2473a94cc.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c8be5704cc4642afb76f11a85452f7a1.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ca7a9e16868e43ed8ad64eabd3f2a373.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_757d3465ac2d490e910e783ec8abddb6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ff62db1abd3f402d9f311834bc53e28f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f1e6b652a4484af2af66bbdb3b04385a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_5c9d4b043415440abb42d68d63f546e2.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_739199bc66d645b590e0b0556d929fab.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_14f9ac3d077f4fd4b1384408d4e122ef.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_c6a874e07cb5493884f2b03c53591c51.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_68fe1bb7a3764280865747cb83c8a710.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_b1deb73e18fb4ea680026036ac0dc1ef.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6e5760b2becf485993812ada8787073b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_7d1b3900ea534850949c924d0253226f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_29bcd51c72ef4d6d997e1e06eb97966d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2878d85dfc444abca543a7703b437dd3.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_81034b5699324f1ebc14f9f4cf603120.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_35377661bcc4471799c1fdb756b35a9b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_3f5552d8de744a1f9c9f731aeffe97ba.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_7af68cc5cde94471b3195ebf219d1fe4.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_41411fc1f9b64d6b8e081ab79c8ec6be.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2796657bacd94fe0b606d5aba27077c9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_94cd91023e69407e910de636763a5cc4.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_8fd6b56ace3c4b86805e3bc75498a7bc.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_9964d1ca1c6542ab998263d4818b96d6.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_dc157af593674a1d8a74b7089e6f44f9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_f971cce00f924f569d1df394a036bdb7.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2394847ddb1e4af7a480ccf5c7ecdd79.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_29f2449a51314b968e08fa7f2bb56e8c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_cdc50f427fe44000ae7daa0f039c8064.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_8bb80c42475c42d388ea4f1a0433836b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_4b3cc495a4e4438ba2a8db5daddf35ae.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_0bc35d535b04406bbf49b41c40663e33.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_02bcfd2501734994877d27dad098f04b.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_740beebba8f24e3fa7b760c5e7bf5041.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_ad2d3d31d974498596b841c0f432bd1a.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e6809275f1a3414fb0a78d9145d904cb.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_e0d5a33953e44ed4aedacd80e8df5472.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_62926e545046491db785b98d01785559.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_8d6e7c0a6fb443ceb35357532ef4835d.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6a47e2bfd4c54f6cbfb9b68ef1026e5c.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_fa5a580c126244dc9aca3d9a9d0d1784.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_49ebe0b400a54209abac07018b20cf6e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_693c6a530e1b4b1e8ce3c35373d670c9.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_2aabb065f1874b9399698e75c176d1ad.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_6c51238c23c04be595456d0a41985f3f.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  },
+  {
+    "valid": true,
+    "path": "ga_output/_work/variant_82ca64c56f8447d1a08e18dcbfb8be4e.bin",
+    "checks": {
+      "lief_parse": true,
+      "elf_parse": true,
+      "architecture": true,
+      "radare2": true
+    },
+    "reason": "ok"
+  }
+]

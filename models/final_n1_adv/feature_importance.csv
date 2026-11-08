@@ -1,0 +1,13 @@
+feature,gain,split
+mean_section_entropy,8590.282632856866,1373
+max_section_entropy,5370.317781900734,1016
+entropy_high_ratio,3329.060256397759,346
+num_strings,1502.4338892376318,1253
+global_entropy,462.7638321137705,800
+max_string_len,292.94856956516924,471
+entropy_variance,227.83110530242175,761
+avg_string_len,134.21268521884485,174
+num_ip_strings,88.7515020625724,160
+num_suspicious_strings,80.73473333878655,233
+num_high_entropy_strings,6.696478460558943,43
+num_url_strings,0.0,0

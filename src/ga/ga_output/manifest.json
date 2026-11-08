@@ -1,0 +1,37 @@
+[
+  {
+    "rank": 0,
+    "path": "ga_output/variant_00.bin",
+    "fitness": 0.0,
+    "modification_cost": 0.0,
+    "genes": []
+  },
+  {
+    "rank": 1,
+    "path": "ga_output/variant_01.bin",
+    "fitness": 0.0,
+    "modification_cost": 0.0,
+    "genes": []
+  },
+  {
+    "rank": 2,
+    "path": "ga_output/variant_02.bin",
+    "fitness": 0.0,
+    "modification_cost": 0.0,
+    "genes": []
+  },
+  {
+    "rank": 3,
+    "path": "ga_output/variant_03.bin",
+    "fitness": 0.0,
+    "modification_cost": 0.0,
+    "genes": []
+  },
+  {
+    "rank": 4,
+    "path": "ga_output/variant_04.bin",
+    "fitness": 0.0,
+    "modification_cost": 0.0,
+    "genes": []
+  }
+]

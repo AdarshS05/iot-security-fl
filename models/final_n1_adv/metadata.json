@@ -1,0 +1,36 @@
+{
+  "experiment": "lightgbm_adversarial_retraining",
+  "model_file": "lightgbm_adversarial.txt",
+  "feature_columns": [
+    "global_entropy",
+    "max_section_entropy",
+    "mean_section_entropy",
+    "entropy_variance",
+    "entropy_high_ratio",
+    "num_strings",
+    "avg_string_len",
+    "max_string_len",
+    "num_ip_strings",
+    "num_url_strings",
+    "num_suspicious_strings",
+    "num_high_entropy_strings"
+  ],
+  "threshold": 0.5,
+  "original_threshold": 0.9419649314154088,
+  "metrics_file": "metrics.json",
+  "training_rows": 898,
+  "adversarial_rows": 199,
+  "unique_adversarial_sources": 87,
+  "split_counts": {
+    "train": 699,
+    "validation": 150,
+    "test": 150
+  },
+  "notes": [
+    "Only original training-split malware sources were used.",
+    "Validation and test samples remained clean.",
+    "Threshold selected on clean validation data.",
+    "Test set was not used for threshold selection.",
+    "GA reconstruction required prediction-score agreement."
+  ]
+}
